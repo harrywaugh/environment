@@ -1,4 +1,6 @@
 #!/bin/bash
-cp .* ../
 
+cp .zshrc ../
+cp .tmux.conf ../
+cp .vimrc ../
 cp 3pane_setup.sh ../

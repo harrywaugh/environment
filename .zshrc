@@ -16,3 +16,5 @@ function lazygit() {
   git commit -a -m "$1"
   git push
 }
+alias sublime_text='~/Programs/sublime_text_3/sublime_text'
+alias storage_space='du -h --max-depth=1 | sort -hr'
