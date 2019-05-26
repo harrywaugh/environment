@@ -24,5 +24,6 @@ function untar() {
 alias sublime_text='~/Programs/sublime_text_3/sublime_text'
 alias storage_space='du -h --max-depth=1 | sort -hr'
 
-
-
+export TAU_HOME=~/programs/tau/
+export TAU_MAKEFILE=$TAU_HOME/lib/Makefile.tau-mpi-pdt
+PATH=$TAU_HOME/x86_64/bin:$PATH
